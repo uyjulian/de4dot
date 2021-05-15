@@ -2,10 +2,10 @@ name: GitHub CI
 on:
   push:
     branches:
-      - master
+      - test
   pull_request:
     branches:
-      - master
+      - test
   release:
     types: released
 
